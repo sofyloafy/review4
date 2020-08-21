@@ -25,4 +25,8 @@ describe('#PaperScanner', () => {
   test('it should allow minus sums', () => {
     expect(paperScanner.calculate("2 * 3")).toEqual(["2 * 3", 6])
   })
+
+  test('it should allow minus sums', () => {
+    expect(paperScanner.calculate("2 * 3 * 2")).toEqual(["2 * 3 * 2", 12])
+  })
 })
