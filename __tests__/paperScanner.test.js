@@ -9,4 +9,8 @@ describe('#PaperScanner', () => {
   test('it should string and sum of string', () => {
     expect(paperScanner.calculate("1 + 2")).toEqual(["1 + 2", 3])
   })
+
+  test('it should string and sum of string', () => {
+    expect(paperScanner.calculate("1 + 2 + 1")).toEqual(["1 + 2 + 1", 4])
+  })
 })

@@ -11,6 +11,7 @@ Input
 operators = +-/*
 extract("1")
 extract("1 + 2" )
+extract("1 + 2 + 1" )
 extract("2 + 2" )
 extract("2 ? 2" )
 extract("1+2" )
