@@ -17,14 +17,14 @@ class PaperScanner {
     if (operator === "+" && paperNumbers.length > 1) {
       total = paperNumbers.reduce((a, b) => a + b, 0)
     } else if (operator === "-") {
-      console.log(paperNumbers)
       total = paperNumbers.reduce((a, b) => a - b)
+    } else if (operator === "*") {
+      total = paperNumbers.reduce((a, b) => a * b)
     }
     else {
       total += (parseInt(sum, 10))
     }
     paperResult.push(sum, total)
-    console.log(paperResult, "Final result")
     return paperResult
   }
 
