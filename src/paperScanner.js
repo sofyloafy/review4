@@ -3,7 +3,6 @@ class PaperScanner {
   calculate(sum) {
     let paperResult = []
     let total = 0
-    
     let splitSum = sum.split(" ")
     let paperNumbers = []
     let operator = ""
@@ -20,6 +19,8 @@ class PaperScanner {
       total = paperNumbers.reduce((a, b) => a - b)
     } else if (operator === "*") {
       total = paperNumbers.reduce((a, b) => a * b)
+    } else if (operator === "/") {
+      total = paperNumbers.reduce((a, b) => a / b)
     }
     else {
       total += (parseInt(sum, 10))

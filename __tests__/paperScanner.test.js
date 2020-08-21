@@ -22,11 +22,19 @@ describe('#PaperScanner', () => {
     expect(paperScanner.calculate("2 - 1 - 1")).toEqual(["2 - 1 - 1", 0])
   })
 
-  test('it should allow minus sums', () => {
+  test('it should allow multiplication sums', () => {
     expect(paperScanner.calculate("2 * 3")).toEqual(["2 * 3", 6])
   })
 
-  test('it should allow minus sums', () => {
+  test('it should allow multiplication sums', () => {
     expect(paperScanner.calculate("2 * 3 * 2")).toEqual(["2 * 3 * 2", 12])
+  })
+
+  test('it should allow multiplication sums', () => {
+    expect(paperScanner.calculate("10 / 2")).toEqual(["10 / 2", 5])
+  })
+
+  test('it should allow multiplication sums', () => {
+    expect(paperScanner.calculate("9 / 3 / 3")).toEqual(["9 / 3 / 3", 1])
   })
 })
