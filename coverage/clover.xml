@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598023829733" clover="3.2.0">
-  <project timestamp="1598023829733" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="25" coveredelements="25" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
+<coverage generated="1598024340128" clover="3.2.0">
+  <project timestamp="1598024340128" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4" elements="31" coveredelements="31" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
     <file name="paperScanner.js" path="/Users/sophiebrown/Projects/review4/src/paperScanner.js">
-      <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
-      <line num="4" count="3" type="stmt"/>
-      <line num="5" count="3" type="stmt"/>
-      <line num="7" count="3" type="stmt"/>
-      <line num="8" count="3" type="stmt"/>
-      <line num="9" count="3" type="stmt"/>
-      <line num="10" count="3" type="stmt"/>
-      <line num="11" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="3" type="stmt"/>
-      <line num="14" count="6" type="stmt"/>
-      <line num="17" count="3" type="cond" truecount="4" falsecount="0"/>
+      <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="6" type="stmt"/>
+      <line num="14" count="11" type="stmt"/>
+      <line num="17" count="5" type="cond" truecount="4" falsecount="0"/>
       <line num="18" count="5" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="23" count="3" type="stmt"/>
-      <line num="24" count="3" type="stmt"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
+      <line num="19" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="26" count="5" type="stmt"/>
+      <line num="27" count="5" type="stmt"/>
+      <line num="28" count="5" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

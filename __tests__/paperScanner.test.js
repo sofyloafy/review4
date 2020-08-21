@@ -13,4 +13,12 @@ describe('#PaperScanner', () => {
   test('it should string and sum of string', () => {
     expect(paperScanner.calculate("1 + 2 + 1")).toEqual(["1 + 2 + 1", 4])
   })
+
+  test('it should allow minus sums', () => {
+    expect(paperScanner.calculate("2 - 1")).toEqual(["2 - 1", 1])
+  })
+
+  test('it should allow minus sums', () => {
+    expect(paperScanner.calculate("2 - 1 - 1")).toEqual(["2 - 1 - 1", 0])
+  })
 })
